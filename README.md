@@ -1,4 +1,4 @@
-<h1 align="center"> Gerador de Senha Alfa </h1>
+<h1 align="center"> Gerador de Senha </h1>
 
 <div align="center">
 Gerador de senha totalmente customizável com salvamento local e envio por e-mail do usuário.
