@@ -1,0 +1,18 @@
+sem o instalador
+
+pyinstaller --noconsole --upx-dir C:\Users\Tieppo\Desktop\Projetos_Python\upx --name="Gerador de Senha" --icon="Gerador_de_senha\IMG\Cadeado.ico"
+--add-data="Gerador_de_senha\IMG\Cadeado.ico;."
+--add-data="Gerador_de_senha\IMG\Cadeado.png;."
+--add-data="Gerador_de_senha\Txt_aqr;."
+--add-data="Gerador_de_senha\Txt_aqr\Alfabeto_fonetico.txt;."
+--add-data="Gerador_de_senha\Txt_aqr\Caracter.txt;."
+--add-data="Gerador_de_senha\Txt_aqr\letras_2_3.txt;."
+--add-data="Gerador_de_senha\Txt_aqr\letras_4_5.txt;."
+--add-data="Gerador_de_senha\Txt_aqr\letras_6_7.txt;."
+
+C:\Users\Tieppo\Desktop\Projetos_Python\Gerador_de_senha\gerador_senha.py
+
+
+com o instalador
+
+pyinstaller --noconsole --upx-dir C:\Users\Tieppo\Desktop\Projetos_Python\upx --name="Gerador de Senha" --icon="Gerador_de_senha\IMG\Cadeado.ico" --add-data="Gerador_de_senha\IMG\Cadeado.ico;." -F C:\Users\Tieppo\Desktop\Projetos_Python\Gerador_de_senha\gerador_senha.py

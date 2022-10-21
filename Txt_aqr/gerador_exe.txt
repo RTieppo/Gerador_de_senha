@@ -1,0 +1,1 @@
+pyinstaller c:/Users/Tieppo/Desktop/Projetos_Python/Gerador_de_senha/gerador_senha.py --upx-dir C:\Users\Tieppo\Desktop\Projetos_Python\Gerador_de_senha\upx --noconsole --name="Gerador de senha" --icon="Gerador_de_senha\IMG\Cadeado.ico" --add-data="Gerador_de_senha\IMG\Cadeado.ico;." -F
