@@ -1,10 +1,10 @@
 from random import choice, shuffle, randint
 
-arquivo_caracteres = open(r'.\Gerador_de_senha\Txt_aqr\Caracter.txt','r', encoding='utf-8').readlines()
-arquivo_2_3_letras = open(r'.\Gerador_de_senha\Txt_aqr\letras_2_3.txt','r', encoding='utf-8').readlines()
-arquivo_4_5_letras = open(r'.\Gerador_de_senha\Txt_aqr\letras_4_5.txt', 'r', encoding='utf-8').readlines()
-arquivos_6_7_letras = open(r'.\Gerador_de_senha\Txt_aqr\letras_6_7.txt', 'r', encoding='utf-8').readlines()
-arquivo_fonetica = open(r'.\Gerador_de_senha\Txt_aqr\Alfabeto_fonetico.txt', 'r', encoding='utf-8').readlines()
+arquivo_caracteres = open(r'.\Txt_aqr\Caracter.txt','r', encoding='utf-8').readlines()
+arquivo_2_3_letras = open(r'.\Txt_aqr\letras_2_3.txt','r', encoding='utf-8').readlines()
+arquivo_4_5_letras = open(r'.\Txt_aqr\letras_4_5.txt', 'r', encoding='utf-8').readlines()
+arquivos_6_7_letras = open(r'.\Txt_aqr\letras_6_7.txt', 'r', encoding='utf-8').readlines()
+arquivo_fonetica = open(r'.\Txt_aqr\Alfabeto_fonetico.txt', 'r', encoding='utf-8').readlines()
 
 senha_f = list()
 palavras_foneticas = list()

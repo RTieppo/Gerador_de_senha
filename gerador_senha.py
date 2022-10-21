@@ -22,11 +22,11 @@ fontP2 = ('Consolas', 12)
 fontgit = ('consolas', 8)
 
 #Abre os arquivos usados para gerar as senha e faz a leitura dos arquivos linha a linha 
-arquivo_caracteres = open(r'.\Gerador_de_senha\Txt_aqr\Caracter.txt','r', encoding='utf-8').readlines()
-arquivo_2_3_letras = open(r'.\Gerador_de_senha\Txt_aqr\letras_2_3.txt','r', encoding='utf-8').readlines()
-arquivo_4_5_letras = open(r'.\Gerador_de_senha\Txt_aqr\letras_4_5.txt', 'r', encoding='utf-8').readlines()
-arquivos_6_7_letras = open(r'.\Gerador_de_senha\Txt_aqr\letras_6_7.txt', 'r', encoding='utf-8').readlines()
-arquivo_fonetica = open(r'.\Gerador_de_senha\Txt_aqr\Alfabeto_fonetico.txt', 'r', encoding='utf-8').readlines()
+arquivo_caracteres = open(r'.\Txt_aqr\Caracter.txt','r', encoding='utf-8').readlines()
+arquivo_2_3_letras = open(r'.\Txt_aqr\letras_2_3.txt','r', encoding='utf-8').readlines()
+arquivo_4_5_letras = open(r'.\Txt_aqr\letras_4_5.txt', 'r', encoding='utf-8').readlines()
+arquivos_6_7_letras = open(r'.\Txt_aqr\letras_6_7.txt', 'r', encoding='utf-8').readlines()
+arquivo_fonetica = open(r'.\Txt_aqr\Alfabeto_fonetico.txt', 'r', encoding='utf-8').readlines()
 
 #Limita a criação do botão de salvameno ou qualquer outro botão
 limita_criação_botão = 0

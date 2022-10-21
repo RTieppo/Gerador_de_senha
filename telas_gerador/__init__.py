@@ -18,7 +18,7 @@ def tela_gerador():
     
 
     layout = [
-        [sg.Column([[sg.Image('Gerador_de_senha\IMG\Cadeado.png')]],justification= 'l'),
+        [sg.Column([[sg.Image(r'.\IMG\Cadeado.png')]],justification= 'l'),
         sg.Column([[sg.Output(size = (80,8), key='-senha-', font=fontP2,)]])],
 
         [sg.Text('Escolha o nivel da senha', font=fontP)],
@@ -54,7 +54,7 @@ def tela_gerador():
 
 
     ]
-    return sg.Window('Gerador de senha', size=(500,610), finalize= True, layout=layout, margins=(0,0), element_justification='c', icon=(r'.\Gerador_de_senha\IMG\Cadeado.ico'))
+    return sg.Window('Gerador de senha', size=(500,610), finalize= True, layout=layout, margins=(0,0), element_justification='c', icon=(r'.\IMG\Cadeado.ico'))
 
 def tela_email():
 
